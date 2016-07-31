@@ -46,7 +46,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-      botName: "basicBot",
+      botName: "OverBot",
       language: "portuguese",
       chatLink: "https://rawgit.com/basicBot/source/master/lang/pt-BR.json",
       scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
@@ -96,8 +96,8 @@
       welcome: true,
       opLink: null,
       rulesLink: null,
-      themeLink: null,
-      fbLink: "www.fb.com",
+      themeLink: "Livre",
+      fbLink: "http://www.fb.com",
       youtubeLink: null,
       website: null,
       intervalMessages: [],
